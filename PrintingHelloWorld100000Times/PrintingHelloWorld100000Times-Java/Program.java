@@ -6,10 +6,9 @@ public class Program {
         Date startTime = Calendar.getInstance().getTime();
         for(int i = 0; i < 100000; i++)
         {
-            System.out.println("Hello World");
+            System.out.println("Hello World!");
         }
         Date endTime = Calendar.getInstance().getTime();
-        
-        System.out.println((endTime.getTime() - startTime.getTime())/1000 + " seconds");
+        System.out.println("Java took => " + (endTime.getTime() - startTime.getTime())/1000 + " seconds");
     }
   }
