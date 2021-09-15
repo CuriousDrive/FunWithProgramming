@@ -7,9 +7,9 @@ namespace Printing100000
         static void Main(string[] args)
         {
             DateTime startTime = DateTime.Now;
-            for (int i = 0; i < 100000; i++)
+            for (int i = 0; i < 10000; i++)
             {
-                Console.WriteLine("Hello World!");
+                Console.WriteLine("Hello World!!! - "  + i);
             }
             DateTime endTime = DateTime.Now;
             Console.WriteLine("C# took => " + (endTime - startTime).Seconds + " seconds");
