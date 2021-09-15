@@ -12,7 +12,7 @@ namespace Printing100000
                 Console.WriteLine("Hello World!");
             }
             DateTime endTime = DateTime.Now;
-            System.Console.WriteLine("C# took => " + (endTime - startTime).Seconds + " seconds");
+            Console.WriteLine("C# took => " + (endTime - startTime).Seconds + " seconds");
         }
     }
 }
